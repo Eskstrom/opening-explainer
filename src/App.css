@@ -1,0 +1,181 @@
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+header h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+  letter-spacing: -0.5px;
+}
+
+.tagline {
+  margin: 0 auto;
+  max-width: 560px;
+  color: var(--text-muted);
+}
+
+.opening-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.opening-selector select {
+  font: inherit;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--panel-bg);
+  color: var(--text);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 480px) 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+@media (max-width: 720px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.board-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.board-wrapper {
+  width: 100%;
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.controls button {
+  font: inherit;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--panel-bg);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.controls button:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.controls button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.move-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  list-style: none;
+  padding: 12px;
+  margin: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel-bg);
+}
+
+.move-list li {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.move-number {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.move-list button {
+  font: inherit;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.move-list button:hover {
+  background: var(--accent-bg);
+}
+
+.move-list button.active {
+  background: var(--accent);
+  color: white;
+}
+
+.explanation-panel {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel-bg);
+  padding: 20px;
+  min-height: 220px;
+}
+
+.explanation-panel h2 {
+  margin: 0 0 8px;
+  font-size: 22px;
+}
+
+.opening-summary {
+  color: var(--text-muted);
+  font-size: 14px;
+  margin: 0 0 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.current-explanation {
+  min-height: 90px;
+}
+
+.prompt {
+  color: var(--text-muted);
+}
+
+.move-label {
+  margin: 0 0 8px;
+  font-weight: 600;
+}
+
+.move-label .san {
+  font-family: ui-monospace, Consolas, monospace;
+  color: var(--accent);
+}
+
+.why {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.progress {
+  margin: 16px 0 0;
+  font-size: 13px;
+  color: var(--text-muted);
+}

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "italian-game",
+    "name": "Italian Game",
+    "eco": "C50",
+    "summary": "One of the oldest openings in chess. White develops naturally and aims the light-squared bishop straight at f7, the weakest point in Black's camp.",
+    "moves": [
+      { "san": "e4", "explanation": "Claims the center and opens the diagonal for the light-squared bishop and the queen." },
+      { "san": "e5", "explanation": "Black mirrors White, contesting the center on equal terms." },
+      { "san": "Nf3", "explanation": "Develops a piece, attacks the e5 pawn, and prepares to castle." },
+      { "san": "Nc6", "explanation": "Defends e5 and develops toward the center, the natural response to the attack on the pawn." },
+      { "san": "Bc4", "explanation": "The 'Italian' bishop aims directly at f7, the weakest square in Black's position before castling." },
+      { "san": "Bc5", "explanation": "Black mirrors the idea, eyeing f2 and preparing quick, symmetrical development." },
+      { "san": "c3", "explanation": "Prepares to push d4, building a big pawn center while giving the bishop on c4 support from behind." },
+      { "san": "Nf6", "explanation": "Develops with tempo, attacking the e4 pawn and preparing to castle." },
+      { "san": "d3", "explanation": "A solid, modern approach: supports e4 without over-extending, keeping options flexible before committing to d4." },
+      { "san": "d6", "explanation": "Black secures e5 and opens the c8-bishop's diagonal, keeping the position solid and flexible." }
+    ]
+  },
+  {
+    "id": "ruy-lopez",
+    "name": "Ruy Lopez",
+    "eco": "C60",
+    "summary": "The 'Spanish Game' pressures Black's e5 pawn indirectly by pinning the knight that defends it, one of the deepest and most respected openings in chess.",
+    "moves": [
+      { "san": "e4", "explanation": "Claims the center and opens lines for the bishop and queen." },
+      { "san": "e5", "explanation": "Black meets the center claim symmetrically." },
+      { "san": "Nf3", "explanation": "Develops and attacks e5, forcing Black to react." },
+      { "san": "Nc6", "explanation": "Defends the e5 pawn while developing a piece toward the center." },
+      { "san": "Bb5", "explanation": "Pins the knight on c6 to the king, indirectly pressuring e5 since capturing it would expose the king to the bishop." },
+      { "san": "a6", "explanation": "The 'Morphy Defense': asks the bishop an immediate question and gains a tempo if it retreats or trades." },
+      { "san": "Ba4", "explanation": "Maintains the pin rather than trading, keeping long-term pressure on the c6-knight and e5 complex." },
+      { "san": "Nf6", "explanation": "Develops with tempo by attacking the e4 pawn, forcing White to address the threat." },
+      { "san": "O-O", "explanation": "Gets the king to safety and connects the rooks before committing further in the center." },
+      { "san": "Be7", "explanation": "Solid development that prepares castling and unpins nothing yet, keeping the position flexible." }
+    ]
+  },
+  {
+    "id": "sicilian-najdorf",
+    "name": "Sicilian Defense: Najdorf Variation",
+    "eco": "B90",
+    "summary": "The most popular and deeply analyzed response to 1.e4, favored by attacking and positional players alike for its rich imbalances and fighting chances.",
+    "moves": [
+      { "san": "e4", "explanation": "Claims the center, the most common first move in chess." },
+      { "san": "c5", "explanation": "Instead of mirroring, Black strikes on the flank, aiming to unbalance the position and fight for the center asymmetrically." },
+      { "san": "Nf3", "explanation": "Develops naturally while preparing to open the center with d4." },
+      { "san": "d6", "explanation": "Supports a future e5 push and opens a line for the c8-bishop." },
+      { "san": "d4", "explanation": "Strikes the center now that development supports it, offering a trade of the d- and c-pawns." },
+      { "san": "cxd4", "explanation": "Black captures, gaining the half-open c-file for later pressure against White's queenside." },
+      { "san": "Nxd4", "explanation": "Recaptures with the knight, centralizing it and keeping a lead in development." },
+      { "san": "Nf6", "explanation": "Develops and attacks the e4 pawn, a standard developing move with a concrete point." },
+      { "san": "Nc3", "explanation": "Defends e4 while developing another piece toward the center." },
+      { "san": "a6", "explanation": "The signature Najdorf move: prevents Nb5 or Bb5 ideas and prepares a flexible ...e5 or ...b5 expansion later." }
+    ]
+  },
+  {
+    "id": "french-defense",
+    "name": "French Defense",
+    "eco": "C00",
+    "summary": "A solid, resilient defense where Black accepts a cramped position temporarily in exchange for a strong pawn chain and long-term counterplay against White's center.",
+    "moves": [
+      { "san": "e4", "explanation": "Claims the center." },
+      { "san": "e6", "explanation": "Prepares ...d5 to challenge the center immediately while keeping the position solid." },
+      { "san": "d4", "explanation": "Builds a broad pawn center now that Black has committed to a flexible but slightly passive setup." },
+      { "san": "d5", "explanation": "Strikes back in the center at once, the whole point of playing ...e6 first." },
+      { "san": "Nc3", "explanation": "Defends e4 and develops, keeping the tension in the center rather than resolving it immediately." },
+      { "san": "Bb4", "explanation": "The Winawer idea: pins the knight, preparing to double White's pawns or trade off the important knight defending e4." },
+      { "san": "e5", "explanation": "White pushes rather than resolves the pin, gaining space and locking the center, which shapes the whole middlegame." },
+      { "san": "c5", "explanation": "Black counterattacks the base of White's pawn chain immediately, the standard French plan against a locked center." },
+      { "san": "a3", "explanation": "Forces the bishop to resolve the pin now, usually by capturing on c3 and handing White the bishop pair but doubled pawns." },
+      { "san": "Bxc3+", "explanation": "Trades the bishop for the knight, doubling White's queenside pawns in exchange for giving up the bishop pair." }
+    ]
+  },
+  {
+    "id": "caro-kann",
+    "name": "Caro-Kann Defense",
+    "eco": "B10",
+    "summary": "A rock-solid defense to 1.e4 that avoids the light-square weaknesses of the French by letting the light-squared bishop develop before locking in the pawn chain.",
+    "moves": [
+      { "san": "e4", "explanation": "Claims the center." },
+      { "san": "c6", "explanation": "Prepares ...d5 to challenge the center while, unlike the French, leaving c8-bishop's diagonal open for later." },
+      { "san": "d4", "explanation": "Builds a full pawn center." },
+      { "san": "d5", "explanation": "Strikes back in the center, directly challenging White's e4 pawn." },
+      { "san": "Nc3", "explanation": "Defends e4 and develops, maintaining central tension." },
+      { "san": "dxe4", "explanation": "Resolves the tension by capturing, aiming to develop the light-squared bishop actively before playing ...e6." },
+      { "san": "Nxe4", "explanation": "Recaptures, and this knight often becomes a strong, centralized piece." },
+      { "san": "Bf5", "explanation": "Develops the light-squared bishop outside the pawn chain before it gets boxed in, the key structural idea of the Caro-Kann." },
+      { "san": "Ng3", "explanation": "Attacks the bishop, gaining a tempo while repositioning the knight toward kingside development." },
+      { "san": "Bg6", "explanation": "Retreats to keep the bishop active and safe, ready to support the queenside or trade favorably later." }
+    ]
+  },
+  {
+    "id": "queens-gambit-declined",
+    "name": "Queen's Gambit Declined",
+    "eco": "D30",
+    "summary": "One of the most classical and respected defenses in chess: Black declines the offered pawn and instead builds a solid, well-supported center.",
+    "moves": [
+      { "san": "d4", "explanation": "Claims the center and opens the diagonal for the light-squared bishop." },
+      { "san": "d5", "explanation": "Black mirrors, contesting the center directly." },
+      { "san": "c4", "explanation": "Offers a pawn to lure Black's d-pawn away from the center; if accepted, White gains extra central space." },
+      { "san": "e6", "explanation": "Declines the gambit, solidly supporting d5 while opening a path for the f8-bishop to develop later." },
+      { "san": "Nc3", "explanation": "Develops and adds pressure on d5, keeping the central tension alive." },
+      { "san": "Nf6", "explanation": "Develops naturally, adding a second defender to d5." },
+      { "san": "Bg5", "explanation": "Pins the knight on f6, indirectly increasing the pressure on d5 since the knight can no longer freely support it after further trades." },
+      { "san": "Be7", "explanation": "Breaks the pin's effectiveness and prepares to castle, a calm and classical response." },
+      { "san": "e3", "explanation": "Supports the possibility of dxc4 recapturing ideas and opens the f1-bishop's diagonal, keeping the structure flexible." },
+      { "san": "O-O", "explanation": "Gets the king to safety before deciding on a central plan such as ...h6 or ...b6." }
+    ]
+  },
+  {
+    "id": "kings-indian-defense",
+    "name": "King's Indian Defense",
+    "eco": "E60",
+    "summary": "A hypermodern defense where Black lets White build a big classical center, then strikes back at it later with pieces and pawn breaks like ...e5 or ...c5.",
+    "moves": [
+      { "san": "d4", "explanation": "Claims the center." },
+      { "san": "Nf6", "explanation": "Develops and controls e4, a flexible hypermodern first move that delays committing the center pawns." },
+      { "san": "c4", "explanation": "Expands further in the center, following up on the space advantage." },
+      { "san": "g6", "explanation": "Prepares a fianchetto: the bishop on g7 will pressure White's center from a distance rather than occupying it directly." },
+      { "san": "Nc3", "explanation": "Develops and adds central control, preparing e4." },
+      { "san": "Bg7", "explanation": "Completes the fianchetto, aiming the bishop down the long diagonal at White's center and queenside." },
+      { "san": "e4", "explanation": "White builds the full classical pawn center that the King's Indian deliberately allows." },
+      { "san": "d6", "explanation": "Prepares ...e5, the thematic central counterstrike, while keeping the position solid." },
+      { "san": "Nf3", "explanation": "Develops and defends e4 and d4 before castling." },
+      { "san": "O-O", "explanation": "Black castles into safety, ready to strike the center with ...e5 next." }
+    ]
+  },
+  {
+    "id": "english-opening",
+    "name": "English Opening",
+    "eco": "A10",
+    "summary": "A flexible flank opening where White controls the center with a pawn on c4 instead of occupying it directly, often transposing into other openings.",
+    "moves": [
+      { "san": "c4", "explanation": "Controls d5 from the side, a flexible way to fight for the center without committing the e- or d-pawn yet." },
+      { "san": "e5", "explanation": "Black grabs full central space in reply, mirroring the reversed Sicilian idea." },
+      { "san": "Nc3", "explanation": "Develops naturally while adding a second attacker on d5 and e4-adjacent squares." },
+      { "san": "Nf6", "explanation": "Develops and pressures e4, keeping pace in development." },
+      { "san": "Nf3", "explanation": "Develops and defends against a future ...e4 push while preparing to castle." },
+      { "san": "Nc6", "explanation": "Solid development, supporting the center and preparing further expansion." },
+      { "san": "g3", "explanation": "Prepares a kingside fianchetto so the bishop can pressure the long diagonal and support the center from a distance." },
+      { "san": "d5", "explanation": "Black stakes a claim in the center now, before White finishes developing." },
+      { "san": "cxd5", "explanation": "Trades to open the c-file and clarify the structure rather than let Black build a bigger center." },
+      { "san": "Nxd5", "explanation": "Recaptures with the knight, centralizing it actively." }
+    ]
+  },
+  {
+    "id": "scotch-game",
+    "name": "Scotch Game",
+    "eco": "C45",
+    "summary": "A direct, open approach where White challenges the center immediately with d4, leading to sharper, more open positions than the Italian or Ruy Lopez.",
+    "moves": [
+      { "san": "e4", "explanation": "Claims the center." },
+      { "san": "e5", "explanation": "Black mirrors, contesting the center." },
+      { "san": "Nf3", "explanation": "Develops and attacks e5." },
+      { "san": "Nc6", "explanation": "Defends e5 while developing." },
+      { "san": "d4", "explanation": "Strikes the center immediately, opening the position rather than developing slowly with Bc4 or Bb5." },
+      { "san": "exd4", "explanation": "Black captures, the natural reply since declining would leave White with a dominant center." },
+      { "san": "Nxd4", "explanation": "Recaptures, centralizing the knight and opening lines for both bishops and the queen." },
+      { "san": "Nf6", "explanation": "Develops with tempo, attacking the e4 pawn." },
+      { "san": "Nc3", "explanation": "Defends e4 while developing another piece." },
+      { "san": "Bb4", "explanation": "Pins the knight on c3, adding pressure and preparing quick, active piece play typical of open Scotch positions." }
+    ]
+  }
+]
