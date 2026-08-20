@@ -5,7 +5,7 @@ behind each move, not just the move itself. Pick an opening, step through the
 line one move at a time, and read a one-line "why" for whatever's on the
 board right now.
 
-Live demo: _add your GitHub Pages URL here after deploying_
+Live demo: https://eskstrom.github.io/opening-explainer/
 
 ## Why this matters
 
