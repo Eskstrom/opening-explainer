@@ -5,7 +5,7 @@ behind each move, not just the move itself. Pick an opening, step through the
 line one move at a time, and read a one-line "why" for whatever's on the
 board right now.
 
-Live demo: https://eskstrom.github.io/opening-explainer/
+**[Try the live demo](https://eskstrom.github.io/opening-explainer/)**
 
 ## Why this matters
 
@@ -48,6 +48,9 @@ npm install
 npm run dev
 ```
 
+Then open the local URL printed by Vite. Use `npm run lint` to check the
+source before committing changes.
+
 ## Building
 
 ```bash
@@ -58,9 +61,14 @@ Outputs a static site to `dist/`, ready to serve from anywhere (GitHub Pages,
 Netlify, a plain S3 bucket, etc.). `vite.config.js` uses a relative `base`
 so the build works regardless of the path it's hosted under.
 
+To preview the production build locally, run:
+
+```bash
+npm run preview
+```
+
 ## Deploying to GitHub Pages
 
 This repo includes a GitHub Actions workflow
 ([`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)) that builds
 and deploys `dist/` to GitHub Pages automatically on every push to `main`.
-See the commands below to set it up.
